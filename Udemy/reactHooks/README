@@ -1,0 +1,17 @@
+
+## Dependencias
+
+# npm install -g npm-check-updates  
+
+->Nos permite ver si nuestras dependencias están desactualizadas utilizando el comando ncu -u
+->Al introducir npm install, automáticamente se actualizarán y descargarán los archivos.
+
+## Material-UI
+
+# npm install @material-ui/core
+
+Es necesario introducir el link:
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+Dentro de public/index.html
+
+## Autores ✒️Profesor Udemy
