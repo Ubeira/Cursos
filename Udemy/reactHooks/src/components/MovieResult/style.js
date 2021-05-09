@@ -3,6 +3,7 @@ const wid = 150;
 export default makeStyles({
   cardContainer: {
     marginTop: 8,
+    marginRight: 20,
     boxShadow: '2px 1px 8px white',
     backgroundColor: 'rgba(255, 255, 255, 0.85)',
   },

@@ -2,6 +2,7 @@ import { makeStyles } from '@material-ui/core';
 
 export default makeStyles({
   container: {
+    margin: '1rem',
     backgroundColor: 'rgba(255, 255, 255, 0.85)',
     display: 'flex',
     flexDirection: 'column',
@@ -22,11 +23,17 @@ export default makeStyles({
   },
   infoGrid: {
     padding: '1rem',
+    paddingBottom: '3rem',
     display: 'flex',
     flexDirection: 'column',
+    justifyContent: 'flex-start',
+    textAlign: 'start',
     gap: '1rem',
     maxWidth: '60vh',
+    textIndent: '2rem',
+    whiteSpace: 'pre-line',
   },
+
   posterGrid: {
     padding: '1rem',
     display: 'flex',
@@ -35,6 +42,7 @@ export default makeStyles({
   },
   image: {
     borderRadius: 20,
+    maxHeight: '75vh',
   },
   loadingContainer: {
     display: 'flex',

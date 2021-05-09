@@ -56,7 +56,7 @@ export default ({ match }) => {
             <strong>Actores:</strong> {movieResult.Actors}
           </Typography>
           <Typography>
-            <strong>director: </strong>
+            <strong>Director: </strong>
             {movieResult.Director}
           </Typography>
           <Typography>

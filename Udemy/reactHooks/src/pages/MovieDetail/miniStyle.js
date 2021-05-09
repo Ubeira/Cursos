@@ -24,8 +24,12 @@ export default makeStyles({
     padding: '1rem',
     display: 'flex',
     flexDirection: 'column',
+    justifyContent: 'flex-start',
+    textAlign: 'start',
     gap: '1rem',
     maxWidth: '60vh',
+    textIndent: '2rem',
+    whiteSpace: 'pre-line',
   },
   posterGrid: {
     padding: '1rem',
