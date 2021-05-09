@@ -11,13 +11,11 @@ import styles from './styles';
 import { TheatersIcon } from '../../icons';
 
 export default ({ history }) => {
-  console.log(history);
   const [searchText, setSearchText] = useState('');
   const classes = styles();
   const handleChange = (e) => {
     setSearchText(e.target.value);
   };
-  console.log(searchText);
 
   const handleClean = (e) => {
     setSearchText('');
@@ -28,10 +26,10 @@ export default ({ history }) => {
 
   return (
     <Container className={classes.container}>
-      <Card className={classes.cardContainer}>
+      <Card className={classes.cardContainer} raised="true">
         <Grid container className={classes.tittleGridContainer}>
           <Grid>
-            <Typography className={classes.title}> Wellcome!</Typography>
+            <Typography className={classes.title}> LoveFilms!</Typography>
           </Grid>
           <Grid>
             <TheatersIcon className={classes.theatersIcon} />
@@ -44,12 +42,11 @@ export default ({ history }) => {
           />
           <Grid>
             <Button variant="contained" onClick={handleClean}>
-              Limpiar
+              Borrar
             </Button>
             <Button
               variant="contained"
               onClick={handleSearch}
-              color="primary"
               size="large"
               className={classes.searchButton}
             >
