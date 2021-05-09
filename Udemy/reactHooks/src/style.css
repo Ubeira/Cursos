@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');

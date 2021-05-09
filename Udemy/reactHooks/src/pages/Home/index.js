@@ -26,7 +26,7 @@ export default ({ history }) => {
 
   return (
     <Container className={classes.container}>
-      <Card className={classes.cardContainer} raised="true">
+      <Card className={classes.cardContainer}>
         <Grid container className={classes.tittleGridContainer}>
           <Grid>
             <Typography className={classes.title}> LoveFilms!</Typography>
